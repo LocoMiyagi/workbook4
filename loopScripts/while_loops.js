@@ -1,5 +1,10 @@
-let i = 0;
-while(i<7){
-console.log("I love loops!");
- i++   
+let family = ["Emily", "George", "Jack"];
+let index = 0;
+while(index < family.length){
+  let familyMemberName = family[index]
+    console.log(familyMemberName);
+
+index++
+
+
 }
